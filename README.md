@@ -21,10 +21,15 @@ request url: POST /api/auth/createuser
 
 request body
 {
+
   "name": "",
+  
   "email": "",
+  
   "password": ""
+  
 }
+
 
 Login:
 
@@ -32,9 +37,13 @@ request url: POST /api/auth/login
 
 request body
 {
+
   "email": "",
+  
   "password": ""
+  
 }
+
 
 
 get user details
@@ -43,7 +52,9 @@ request url: POST /api/auth/getuser
 
 headers
 {
+
   "auth-token": ""
+  
 }
 
 
@@ -59,8 +70,11 @@ create ticket
 request url: POST /api/ticket/createticket
 
 request body:
+
 {
+
   "numberoftickets" : {number}
+  
 }
 
 example
@@ -68,7 +82,9 @@ example
 http://localhost:4000/api/ticket/createticket
 
 {
+
   "numberoftickets": 20
+  
 }
 
 get Ticket:
