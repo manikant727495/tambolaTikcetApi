@@ -1,9 +1,13 @@
 # tambolaTikcetApi
 how to run this project
+
 steps:
 clone this repository in local
+
 install node packages using npm install
+
 setup mongodb
+
 run the command "node app.js"
 
 How use each rest api
